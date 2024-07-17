@@ -8,7 +8,7 @@ public class BaseClass {
     protected static WebDriver driver;
 
     public static void initializeDriver() {
-        System.setProperty("webdriver.chrome.driver", "D:\\CucumberSeleniumDemo\\chromedriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", ".//chromedriver//chromedriver.exe");
         driver = new ChromeDriver();
     }
 
